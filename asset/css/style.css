@@ -1,0 +1,414 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #161513;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    overflow-x: hidden;
+}
+
+
+body {
+    color: white;
+      height: 100%;
+
+}
+
+.container-fluid {
+    padding-bottom: 15%;
+}
+
+.navbar-nav {
+    margin: auto;
+    gap: 22px;
+}
+
+.navbar-nav .nav-link {
+    color: white;
+    font-size: 20px;
+}
+
+.navbar-nav .nav-link:hover {
+    color: white;
+}
+
+.nav-link.active {
+    margin-top: -3%;
+    transition: 0.3s;
+}
+
+.nav-connec {
+    padding: 15px 20px;
+    border-radius: 50px;
+    background: linear-gradient(267deg, #DA7C25 .36%, #B923E1 102.06%);
+    font-size: 16px;
+    cursor: pointer;
+    transition: .5s;
+    border: none;
+    text-decoration: none;
+    color: white;
+}
+
+.nav-connec:hover {
+    border: 2px solid white;
+}
+
+.navbar>.container,
+.navbar>.container-fluid,
+.navbar>.container-lg,
+.navbar>.container-md,
+.navbar>.container-sm,
+.navbar>.container-xl,
+.navbar>.container-xx {
+    margin-inline: 9%;
+    margin-block: 2%;
+}
+
+.navunderline {
+    display: none;
+}
+
+.nav-link.active {
+    border-radius: 15px;
+    background: linear-gradient(267deg, #DA7C25 .36%, #B923E1 102.06%);
+    margin-top: -5px;
+    font-weight: bold;
+    color: white;
+}
+
+.navbar-brand {
+    color: white;
+    font-size: 30px;
+    transition: 1s;
+}
+
+
+
+
+.home-box {
+    margin: auto;
+    max-width: 650px;
+    text-align: center;
+}
+
+.home-name {
+    background: linear-gradient(270deg, #DF8908 10%, #B415FF 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.home-box h1 {
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.home-box p {
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.resume {
+    padding: 15px 20px;
+    border-radius: 50px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: .5s;
+    border: 2px solid white;
+}
+
+.resume:hover {
+    border: 2px solid #B415FF;
+}
+
+.title {
+    position: relative;
+    padding-block: 15%;
+}
+
+.title h1 {
+    text-align: center;
+    padding: 0 30px;
+    font-size: 60px;
+    font-weight: 600;
+}
+
+.title img {
+    width: 160px;
+    position: absolute;
+    bottom: 44%;
+    right: 30%;
+    background-color: #00000000;
+}
+
+.about {
+    text-align: center;
+    padding-top: 6%;
+    padding-bottom: 50px;
+}
+
+.about-prag p {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.about-img img {
+    object-fit: scale-down;
+    width: 65%;
+
+}
+
+.profil-img {
+      width: 50%;
+    border-radius: 17px;
+    height: auto;
+    margin-block: 5%;
+    margin-left: 16%
+
+
+}
+
+
+
+.about-skills hr {
+    background: linear-gradient(264deg, #DF8908 -5.09%, #B415FF 106.28%);
+    border-radius: 50px;
+    height: 8px;
+    outline: none;
+    border: none;
+    opacity: 3;
+
+}
+
+.about-skills {
+    display: flex;
+    gap: 22px;
+    align-items: center;
+    transition: .3s;
+
+}
+
+.about-skills:hover {
+    transition: .3s;
+    transform: scale(1.05);
+
+}
+
+.about-skills p {
+    min-width: 130px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.talk {
+    padding-top: 9%;
+}
+
+.talk h1 {
+    text-align: center;
+    font-size: 60px;
+    font-weight: 600;
+}
+
+.talk h2 {
+    background: linear-gradient(270deg, #DF8908 80%, #B415FF 100%);
+    font-size: 50px;
+    font-weight: 700;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.talk-right{
+  overflow: visible;
+height: auto;
+}
+.talk-left {
+    max-width: 550px;
+    color: #d8d8d8;
+    font-size: 16px;
+    line-height: 25px;
+}
+
+.icon {
+    display: flex;
+    margin-right: -28%;
+}
+
+.talk-box {
+    display: flex;
+
+}
+
+.avg-img {
+    margin-inline: 3%;
+}
+.talk-input1,
+.talk-input2,
+.talk-input3 {
+  width: 150px; /* أو أي عرض تحبيه */
+  max-width: none;
+  resize: none; /* عشان تمنعي تمدد textarea بالماوس */
+}
+.talk-input1 {
+    width: 100%;
+    padding: 18px 0 18px 20px;
+    border-radius: 5px;
+    background-color: #32323c;
+    color: #a0a0a0;
+    border: none;
+    font-size: 18px;
+
+}
+
+.talk-input2 {
+    width: 100%;
+    border-radius: 5px;
+    background-color: #32323c;
+    color: #a0a0a0;
+    border: none;
+    padding: 18px 0 18px 20px;
+    font-size: 18px;
+
+}
+
+.talk-input3 {
+    font-size: 18px;
+
+    width: 100%;
+    height: 70%;
+    border-radius: 5px;
+    background-color: #32323c;
+    color: #a0a0a0;
+    border: none;
+
+}
+
+.talk-p1,
+.talk-p2,
+.talk-p3 {
+    color: #d8d8d8;
+    margin-block: 2%;
+    font-size: 15px
+}
+
+.talk h1 {
+    margin-bottom: 10%;
+    text-align: center;
+    padding: 0 30px;
+    font-size: 60px;
+    font-weight: 600;
+}
+
+.talk-left h2 {
+    margin-bottom: 6%;
+
+}
+
+.talk-left p {
+    max-width: 450px;
+    margin-bottom: 6%;
+
+}
+
+.submit {
+    padding: 15px 20px;
+    border-radius: 50px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: .5s;
+    background: linear-gradient(270deg, #DF8908 10%, #B415FF 100%);
+    border: none;
+    transition: .3s;
+    margin-top: 2%;
+    text-align: center;
+}
+
+.submit:hover {
+
+    transition: .3s;
+    transform: scale(1.07);
+}
+
+.mywork {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+    align-items: center;
+}
+
+.mywork img {
+    width: 100%;
+    margin-top: 30%;
+    transform: .3;
+    border-radius: 10px;
+}
+
+.mywork img:hover {
+    transition: .3s;
+    transform: scale(1.07);
+    border: 5px solid #ff00ff;
+    cursor: pointer;
+}
+
+.lastwork {
+    text-align: center;
+    padding-top: 10%;
+}
+
+.footer {
+    padding-top: 25%;
+}
+
+.footer-input {
+    font-size: 18px;
+    width: 55%;
+    height: 45%;
+    border-radius: 15px;
+    background-color: #32323c;
+    color: #a0a0a0;
+    border: none;
+    margin-inline: 5%;
+    transition: .3s;
+
+}
+
+.footer-input:hover {
+    transition: .3s;
+
+    transform: scale(1.07);
+
+}
+
+.Subscribe {
+    padding: 15px 40px;
+    border-radius: 50px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: .5s;
+    background: linear-gradient(270deg, #DF8908 10%, #B415FF 100%);
+    border: none;
+    transition: .3s;
+    margin-top: 2%;
+    text-align: center;
+    transition: .3s;
+
+}
+
+.Subscribe:hover {
+    transition: .3s;
+
+    transform: scale(1.07);
+}
+
+@media (max-width: 992px) {
+    .navbar-collapse {
+        height: 100vh;
+        background-color: #161513;
+        color: white;
+        text-align: end;
+    }
+
+    .navbar-toggler-icon {
+        background: white;
+        color: white;
+    }
+}
